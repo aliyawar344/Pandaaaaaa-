@@ -1,0 +1,28 @@
+Add your 24 real photos here using these exact names:
+
+memory1.jpg
+memory2.jpg
+memory3.jpg
+memory4.jpg
+memory5.jpg
+memory6.jpg
+memory7.jpg
+memory8.jpg
+memory9.jpg
+memory10.jpg
+memory11.jpg
+memory12.jpg
+memory13.jpg
+memory14.jpg
+memory15.jpg
+memory16.jpg
+memory17.jpg
+memory18.jpg
+memory19.jpg
+memory20.jpg
+memory21.jpg
+memory22.jpg
+memory23.jpg
+memory24.jpg
+
+You can use .jpg files. If your photos are .png, rename them to .jpg or update the image extension in index.html.
