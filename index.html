@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Little Story 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="floating-decor"><span>♡</span><span>✦</span><span>🎀</span><span>♡</span><span>✧</span><span>🌷</span></div>
+
+<audio id="bgMusic" loop><source src="music.mp3" type="audio/mpeg"></audio>
+<button class="music-btn" id="musicBtn">🎵</button>
+
+<section class="opening-screen" id="openingScreen">
+  <div class="envelope-area">
+    <div class="sparkle sparkle-1">✦</div><div class="sparkle sparkle-2">✧</div><div class="sparkle sparkle-3">♡</div>
+    <div class="envelope" id="envelope">
+      <div class="envelope-back"></div>
+      <div class="letter">
+        <div class="letter-small">for my favourite human</div>
+        <div class="letter-title">💌</div>
+        <div class="letter-text">I made something<br>for you...</div>
+      </div>
+      <div class="envelope-flap"></div>
+    </div>
+    <p class="tap-text">tap the envelope 🎀</p>
+  </div>
+</section>
+
+<main id="mainContent" class="hidden">
+<section class="hero">
+  <div class="hero-sticker sticker-left">🎀</div><div class="hero-sticker sticker-right">🧸</div>
+  <div class="hero-content">
+    <p class="tiny-heading">A LITTLE SOMETHING FOR YOU 💌</p>
+    <h1>Happy Birthday, <span>Pandaaaaaa💖</span></h1>
+    <p class="hero-subtitle"> A cutieeeee album forr myyyy babbyyyyy🤭💖💖,<br>countless laughs & one very special friendship.</p>
+    <div class="scroll-indicator"><span>scroll slowly ↓</span></div>
+  </div>
+</section>
+
+<section class="intro section">
+  <div class="paper-card intro-card">
+    <div class="tape tape-top"></div><span class="corner-doodle">✦</span>
+    <p class="handwritten">Myyy Pandaaaaa babbyyyyy🤭💖💖</p>
+    <p>Youuu aree thee onee person in myyy lifeee joo ayee aur sb kuchh special bnaa diaaa everthinggg chahe choti ho badi hoo 💖and somehow babbyyyyyyy uuu become a part of myyyyyyy everyday life subha uthte hi yaad ana🤭 and night mai baat krne sonaa daily ki ek adat ho gi hai ab👉👈💌💌💌 </p>
+    <p>So I thought... kuy naa ek mst saa album banaya jaye jismee hamari memories ho cutiee   hainaa😁 and haa jesa bhi bnee tareef krdenaa jadaa tee tee nhi chamjeeeee👉👈💗💗</p>
+    <div class="tiny-heart">🐼</div>
+  </div>
+</section>
+
+<section class="album section" id="memories">
+  <div class="section-heading"><span class="section-number">01</span><h2>Our Little Memories</h2><p>  Pandaaaaaa 💖 Dodooooo</p></div>
+  <div class="memory-grid">
+    <article class="memory-card rotate-left" data-title="The Beginning 🐼" data-description="And somehow this little moment became the beginning of so many memories.">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M1.jpeg" alt="Memory 1"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • THE BEGINNING</span><h3>It all started here🐼🐧</h3><p>our first little chapter...</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Random Moments 😂" data-description="The best memories are usually the random ones we never planned.">
+      <div class="sticker">✨</div>
+      <div class="photo-wrapper"><img src="images/M2.jpeg" alt="Memory 2"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • RANDOM DAYS</span><h3>Random = best😁</h3><p>literally doing nothing...</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="First Selfie 📸" data-description="A tiny photo that somehow became a big memory.">
+      
+      <div class="photo-wrapper"><img src="images/M3.jpeg" alt="Memory 3"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • FIRST SELFIE</span><h3>First selfie energy 📸</h3><p>Movieeeee timeee and chupkee se selfie jab sb paani pene gye the🤭😝</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Inside Jokes 😂" data-description="Some jokes are funny only because they're ours.">
+      <div class="sticker">💌</div>
+      <div class="photo-wrapper"><img src="images/M4.png" alt="Memory 4"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • RANDOM CHAT</span><h3>Late night gossips🤭</h3><p>with cutee cutee flirting,ladai,pyaar and all🤭💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Good Days ☀️" data-description="Sometimes the ordinary days become the favourites.">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M5.jpeg" alt="Memory 5"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • GOOD DAYS</span><h3>All video call masti🤭</h3><p>Crazy vc😝, perfect memory💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Certified Pagal 😂" data-description="Normal people could never understand the things we laugh about.">
+      <div class="sticker">🧸</div>
+      <div class="photo-wrapper"><img src="images/M6.jpeg" alt="Memory 6"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • CHAOS</span><h3>Certified pagal 😂</h3><p>zero normal moments.</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="A New Chapter 🫶🏻" data-description="The friendship kept growing, one random day at a time.">
+      
+      <div class="photo-wrapper"><img src="images/M7.jpeg" alt="Memory 7"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • Vroom-Vroom🔥</span><h3>More memories 🫶🏻</h3><p>Late night ghummi ghummii🤭💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Late Nights 🌙" data-description="From serious talks to complete nonsense at 2 AM.">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M8.jpeg" alt="Memory 8"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • LATE NIGHTS</span><h3>2 AM conversations 🌙</h3><p>sleep? never heard of it.</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="That One Day 🥹" data-description="One of those days that somehow stayed in our heads forever babbyyyyyyyyy💌💌💌💌💌">
+      <div class="sticker">✨</div>
+      <div class="photo-wrapper"><img src="images/M9.jpeg" alt="Memory 9"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • FAVOURITE DAY</span><h3>That one day 🥹</h3><p>still makes me smile😭💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Caught in 4K 📸" data-description="Some photos need absolutely no caption👉👈">
+      
+      <div class="photo-wrapper"><img src="images/M10.jpeg" alt="Memory 10"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • RANDOM CLICK</span><h3>Caught in 4K 📸</h3><p>no explanation needed😁</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="The OP photo😝" data-description="The kind of laughter that makes your stomach hurt🤣🤣 cholllyyyy🤣🤣👉👈">
+      <div class="sticker">😂</div>
+      <div class="photo-wrapper"><img src="images/M11.jpeg" alt="Memory 11"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • LAUGHS</span><h3>Can't stop laughing 😂</h3><p>The only Tanyaa Madh...😝😝</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Just Us ♡" data-description="Tiny moments like this are the ones I want to remember Pandaaaaaa💖.">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M12.jpeg" alt="Memory 12"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • LITTLE MOMENT</span><h3>Just us ♡</h3><p>nothing fancy, just happy😁</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Babbyyyyyyyyyyy🤗" data-description="A litle babbyyyyyy in myyyyy littleeee heart👉👈💌💌">
+      
+      <div class="photo-wrapper"><img src="images/M13.jpeg" alt="Memory 13"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • babbyyyyy🤭💖💖</span><h3>Babbyyyyyyyyyyy🤗</h3><p>Bss bachooo k trh dekhtee jauuuu iseee👉👈💘💘💘</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Favourite Human 🎀" data-description="Some people just become part of your everyday life💌">
+      <div class="sticker">🎀</div>
+      <div class="photo-wrapper"><img src="images/M14.jpeg" alt="Memory 14"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • FAVOURITE PEOPLE</span><h3>My person 🎀</h3><p>you already know Pandaaaaaa💖</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Good Vibes ✨" data-description="My life time best gift😭😭💌💌💌">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M15.jpeg" alt="Memory 15"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • GOOD VIBES</span><h3>Good vibes only ✨</h3><p>and maybe a little chaos.</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Still Us 🎀" data-description="🌻🌻">
+      <div class="sticker">🧸</div>
+      <div class="photo-wrapper"><img src="images/M16.jpeg" alt="Memory 16"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date">• STILL US</span><h3>Still us 🎀</h3><p>and hopefully for a very long time💌💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Recent Favourite 💗" data-description="A newer memory, but already one of my favourites🤭💌">
+      
+      <div class="photo-wrapper"><img src="images/M17.jpeg" alt="Memory 17"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • Pandaaaaaa💖</span><h3>Recent favourite 💗</h3><p>adding this one to the collection.</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Another Random Day 🌷" data-description="Pantingggg by Pandaaaaaa💖">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M18.jpeg" alt="Memory 18"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • RANDOM DAY</span><h3>Cutieeeee🌷</h3><p>chotuuu chotuuuu cutiee cuitee Pantingggg🤭🤭</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Gifts😙💌" data-description="Chotuuu chotuuu gifts of Pandaaaaaaaa🎀 and Dodooooo">
+      <div class="sticker">💗</div>
+      <div class="photo-wrapper"><img src="images/M19.jpeg" alt="Memory 19"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • Gifts😙💌</h3><p>exactly this.</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="That Smile 🥹" data-description="A photo worth keeping forever💘">
+      
+      <div class="photo-wrapper"><img src="images/M20.jpeg" alt="Memory 20"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • SMILE</span><h3>That smile 🥹</h3><p>instant mood booster😙</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Core Memory 🔓" data-description="DODOOO💌PANDAAA">
+      <div class="tape"></div>
+      <div class="photo-wrapper"><img src="images/M21.jpeg" alt="Memory 21"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • Random always special💗💗</span><h3>Forever💌</h3><p>saving this one forever.</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="Favourite Photo 📸" data-description=" one of my favourite photo👉👈">
+      <div class="sticker">⭐</div>
+      <div class="photo-wrapper"><img src="images/M22.jpeg" alt="Memory 22"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • FAVOURITE PHOTO</span><h3>Favourite photo 📸</h3><p>currently obsessed.</p></div>
+    </article>
+
+    <article class="memory-card rotate-left" data-title="Two Years 💗" data-description="">
+      
+      <div class="photo-wrapper"><img src="images/M23.jpeg" alt="Memory 23"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date">•Random but special forever💘 </span><h3>💗</h3><p>Pinkyyyy pinkyyyy💌💌</p></div>
+    </article>
+
+    <article class="memory-card rotate-right" data-title="To Be Continued 🎂" data-description="The best part is that we still have so many memories left to make.">
+      <div class="sticker">🎀</div>
+      <div class="photo-wrapper"><img src="images/memory24.jpg" alt="Memory 24"><div class="photo-shine"></div></div>
+      <div class="memory-info"><span class="memory-date"> • TO BE CONTINUED</span><h3>More to come 🎂</h3><p>this album isn't finished yet.</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- <section class="timeline-section section">
+  <div class="section-heading"><span class="section-number">02</span><h2>Our Timeline</h2><p> A year in little moments</p></div>
+  <div class="timeline"><div class="timeline-line"></div>
+    <div class="timeline-item"><div class="timeline-dot">🐼</div><div class="timeline-card"><span>2024</span><h3>The Beginning</h3><p>Two strangers-ish... and somehow this friendship happened💌</p></div></div>
+    <div class="timeline-item"><div class="timeline-dot">🫶🏻</div><div class="timeline-card"><span>2025</span><h3>Getting Closer</h3><p>More bak-bak🤭, more ladai😒, more memories💖</p></div></div>
+    <div class="timeline-item"><div class="timeline-dot">🐧</div><div class="timeline-card"><span>2026</span><h3>Still Us</h3><p>Still laughing at the same stupid things👉👈 Still making memories Pandaaaaaa💖</p></div></div>
+  </div>
+</section> -->
+
+<section class="little-things section">
+  <div class="section-heading"><span class="section-number">03</span><h2> I Love💌 Your existence </h2></div>
+  <!-- <div class="things-grid">
+    <div class="thing-card"><span>💌</span><h3>Random messages</h3><p>especially the ones that make absolutely no sense(sbki chugli krnaa🤭)</p></div>
+    <div class="thing-card"><span>😂</span><h3>Your stupid jokes</h3><p>unfortunately, I laugh at most of them.</p></div>
+    <div class="thing-card"><span>🌙</span><h3>Late conversations</h3><p>somehow we always find something to talk about.</p></div> -->
+    <div class="thing-card"><span>🧸💌🐼</span><h3></h3><h2>Best feeling everrr Pandaaaaaa💖</h2></div>
+  </div>
+</section>
+
+<!-- <section class="remember-section section">
+  <div class="remember-card"><span class="remember-icon">💭</span><p class="remember-small">DO YOU REMEMBER?</p>
+    <h2 id="randomMemory">that one completely random day?</h2>
+    <button id="memoryButton">show me a memory ✨</button><p id="memoryResult" class="memory-result"></p>
+  </div>
+</section> -->
+
+<section class="letter-section section">
+  <div class="section-heading"><span class="section-number">04</span><h2>One Last Thing...</h2></div>
+  <div class="big-letter">
+    <div class="letter-decoration">♡</div><p class="letter-greeting">Myyyyy littlee nannhiii see jaaaan👉👈😘💖💖</p>
+    <p> Wishhhhhhhhhh uuuuuuuuu verryyyyyyyy veryyyyyyyyyyy lovelyyyyyy doveeyyyyyyy happpyyyyyyyyy birthdayyyyyyyyyyy myyyyyyyyyyy Pandaaaaaaaaa babbyyyyyyyyyyyy🤗🤗🤗🤗💖💖💖💖💖💖💖💖💖💖💖 a day when myyy chotuuu se babbyyyyyyyy was born🤭 aaaj kaa day bahut bahaut jadaa speciaall haiii 💌 i wishhhhh every sec💌 every min💖 every hour💗 every day 💘every week💗 every month 💓every year❣️ best of besttttt  hooo forrr myyyyyyyy babbyyyyyyyyy💌💌💌💌💌</p>
+    <p>Thankkkkkkkk youuuuuuuu babbbyyyyyyyy for all the random laughs, urr lovelyyyyyyy bak-bak, little arguments👉👈, unforgettable moments and everything in between💘💘💘💘💘💘</p>
+    <p>I don't know what the next chapters are going to look like, but I do know one thing —</p>
+    <p class="highlight-text">I want a lot more memories with youuuuuuu babbyyyyyyyyy💌💌💌💌💌 ♡</p>
+    <p class="signature">— Myyyyyyyy one and onlyyyyyyyyy Pandaaaaaaaa🎀</p>
+  </div>
+</section>
+
+<section class="final-section">
+  <div class="final-content"><div class="final-stars">✦　🐼　✧　🐧　✦</div><p>HAPPY BIRTHDAY</p>
+
+  <h1>Pandaaaaaaaa🎀</h1>
+    <!-- <h2>Here's to many<br>more memories. 🎂</h2><div class="big-heart">♡</div><span class="to-be-continued">to be continued...</span> -->
+  </div>
+</section>
+<footer>made with too much love from Your dodoooo & a little bit of pagalpan🤭🎀</footer>
+</main>
+
+<div class="modal" id="photoModal">
+  <button class="modal-close" id="modalClose">×</button>
+  <div class="modal-content"><img id="modalImage" src="" alt="Memory"><div class="modal-caption"><span id="modalTitle">Memory</span><p id="modalDescription">A beautiful memory.</p></div></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
